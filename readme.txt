@@ -1,11 +1,10 @@
-personal use only
 ロム魂(256in1)のファームウェアです。
 最大256のROMファイルをロム魂のフラッシュメモリに格納する事が出来ます。
 ファイル格納用のフラッシュメモリ領域は4Mバイト弱です。
 
 対応ファイル形式
 * 各種ROMファイル
-  非メガROM、ASCII8Kマッパー、ASCII16Kマッパー、KONAMIマッパー、R-TYPEマッパーに対応
+  非メガROM、ASCII8Kマッパー、ASCII16Kマッパー、KONAMIマッパー、KONAMI SCCマッパー、R-TYPEマッパーに対応
 
 使用法
 
@@ -18,11 +17,12 @@ personal use only
 <NAME>=任意の名前
 この名前はゲーム選択メニューに表示されます。16文字を超える部分はメニューに表示されません。
 
-<MAPPER>=ROMのマッパー形式(normal, ascii8k, ascii16k, konami, rtype の何れか)
+<MAPPER>=ROMのマッパー形式(normal, ascii8k, ascii16k, konami, scc, rtype の何れか)
 * normal: 非メガROM
 * ascii8k: メガROM ASCII8Kマッパー
 * ascii16k: メガROM ASCII16Kマッパー
 * konami: メガROM konamiマッパー
+* scc: メガROM konami SCCマッパー
 * rtype: メガROM R-TYPEマッパー
 
 例:
